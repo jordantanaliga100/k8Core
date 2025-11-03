@@ -1,8 +1,10 @@
-A comprehensive repository showcasing Kubernetes fundamentals and advanced deployments. Includes configurations for Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, and persistent storage. Demonstrates container orchestration, scaling, and rolling updates for Node.js-based microservices
+A comprehensive repository showcasing Kubernetes fundamentals and advanced deployments. Includes configurations for Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, and persistent storage. Demonstrates container orchestration, scaling, and rolling updates for Node.js-based microservices.
 
 🔥🔥🔥 Terms and Definitions 🔥🔥🔥
 `What is K8s ?`
 `open-surce orchestration tool`
+
+---
 
 🚀 Main Components 🚀
 
@@ -24,9 +26,9 @@ A comprehensive repository showcasing Kubernetes fundamentals and advanced deplo
 
 - **Kubelet** — Agent na tumatakbo sa bawat node; inuutusan ang node para mag-run ng containers ayon sa Pod spec.
 
-- **API Server** — Gatekeeper ng cluster; lahat ng kubectl at internal components ay nag-iinteract dito.
+- **API Server** — Gatekeeper ng cluster; lahat ng kubectl a resourct internal components ay nag-iinteract dito.
 
-- **Scheduler** — Nag-assign ng Pods sa mga nodes base sa resource request at constraints.
+- **Scheduler** — Nag-assign ng Pods sa mga nodes base sae request at constraints.
 
 ---
 
